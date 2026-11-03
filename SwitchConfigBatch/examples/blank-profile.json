@@ -1,0 +1,16 @@
+{
+  "mode": "逐台接入（相同出厂IP）",
+  "current": "192.168.1.1",
+  "first": "192.168.1.101",
+  "count": 1,
+  "mask": "255.255.255.0",
+  "gateway": "",
+  "main": "",
+  "after": "",
+  "identity_command": "",
+  "identity_pattern": "",
+  "verify_command": "",
+  "verify_pattern": "",
+  "allow_disconnect": false,
+  "settle_seconds": 3
+}

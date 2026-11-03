@@ -1,0 +1,10 @@
+terminal length 0
+show version
+configure terminal
+spanning-tree mode rapid-pvst
+spanning-tree vlan 1 priority 4096
+end
+show spanning-tree vlan 1
+write memory
+show running-config | include spanning-tree
+show startup-config | include spanning-tree

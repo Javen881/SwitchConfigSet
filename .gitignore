@@ -1,0 +1,24 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Build and packaged runtimes
+build/
+dist/
+*.spec
+
+# Runtime data and device evidence
+data/
+logs/
+exports/
+generated/
+device-checks/
+startup.log
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

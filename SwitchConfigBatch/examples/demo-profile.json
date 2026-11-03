@@ -1,0 +1,16 @@
+{
+  "mode": "逐台接入（相同出厂IP）",
+  "current": "192.168.1.1",
+  "first": "192.168.1.101",
+  "count": 3,
+  "mask": "255.255.255.0",
+  "gateway": "",
+  "main": "demo configure\ndemo set-ip ${IP} ${MASK}",
+  "after": "demo save",
+  "identity_command": "demo identity",
+  "identity_pattern": "(?m)^Serial: (\\S+)\\s*$",
+  "verify_command": "demo show-ip",
+  "verify_pattern": "(?m)^Management IP: ([0-9.]+)\\s*$",
+  "allow_disconnect": true,
+  "settle_seconds": 0
+}
